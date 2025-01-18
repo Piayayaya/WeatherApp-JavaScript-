@@ -17,7 +17,7 @@ function displayWeatherInfo(weatherData){
 
     const {name: city, main: {temp, humidity}, weather: [{description, id}]} = weatherData;
     
-    const displayCity = document.createElement("h1");
+    const displayCity = document.createElement("h2");
     const displayTemp = document.createElement("p");
     const displayHumidity = document.createElement("p");
     const displayDesc = document.createElement("p");
